@@ -1,5 +1,31 @@
 #ALLCAPS{
-  color : white;
-	cursor: default;
+    color : white;
+    cursor: default;
+}
+
+@font-face {
+    font-family: 'guardian_expanded_iexpandedIt';
+    src: url('../fonts/guardian2expandital-webfont.woff2') format('woff2'), 
+         url('../fonts/guardian2expandital-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'guardian_chromeregular';
+    src: url('../fonts/guardian2chrome-webfont.woff2') format('woff2'), 
+        url('../fonts/guardian2chrome-webfont.woff') format('woff');
+    font-weight: ligher;
+    font-style: normal;
+}
+
+#titles {
+    //font-family: guardian_expanded_iexpandedIt;
+    font-size: 15px;
+}
+
+#footerImg {
+    position: fixed;
+    bottom: -75px;
 }
 
